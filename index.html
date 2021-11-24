@@ -290,6 +290,60 @@
 
   <!-- final seção portifolio -->
 
+  
+  <!-- formulário de cadastro -->
+  <div id="cadastro" class="mt-5 container">
+    <h2 class="text-center mb-3 titulo">Cadastre-se</h2>
+
+    <!-- enctype="multipart/form-data" somente se o formulário enviar arquivos -->
+    <form id="frm-cadastro" action="" method="POST" enctype="multipart/form-data"> 
+      <input type="text"  class="form-control mb-3" name="nome"   placeholder="nome:" required>
+      <input type="email" class="form-control mb-3" name="email"  placeholder="Digite um email válido" required>
+      <p>Idade: <span id="info-idade"></span></p>
+      <input type="range" name="idade" id="idade" min="12" max="70" class="form-range" value="12">
+      <p>Sexo</p>
+      <input type="radio" name="sexo" id="" value="Feminino"  class="form-check-input" required> Feminino
+      <input type="radio" name="sexo" id="" value="Masculino" class="form-check-input" required> Masculino
+
+      <p>Atividades de laser
+      <br><input type="checkbox" name="laser[]" id="" value="Cinema"   class="form-check-input"> Cinema
+      <br><input type="checkbox" name="laser[]" id="" value="Esportes" class="form-check-input"> Esportes
+      <br><input type="checkbox" name="laser[]" id="" value="Viajar"   class="form-check-input"> Viajar
+      <br><input type="checkbox" name="laser[]" id="" value="Jogos"    class="form-check-input"> Jogar
+      <br><input type="checkbox" name="laser[]" id="" value="Assistir series"   class="form-check-input"> Séries
+    </p>
+
+    <p>Foto de perfíl: (opcional)</p>
+    <input type="file" name="foto" id="foto" class="form-control">
+
+    <p class="mt-3 container">Qual estado você mora?</p>
+    <select name="estado" id="estado" class="form-select">
+    <option>Selecione</option>
+      <option value="Acre">Acre</option>
+      <option value="Bahia">Bahia</option>
+      <option value="Ceará">Ceará</option>
+    </select>
+    </form>
+
+    <br>
+    <input type="password" name="senha" id="senha" placeholder="Digite uma senha" class="form-control">
+
+    <br>
+    <input type="submit" value="Enviar" class="btn btn-primary">
+
+    <footer class="container mt-5 bg-empresa">
+      <p>Onde estamos:</p>
+      
+    </footer>
+  </div>
+  
+
+  <!-- final formulário de cadastro -->
+
+<p></p><br>
+
+
+
 
   <div class="row">
     <div class="col-md">

@@ -44,3 +44,27 @@ color: #fff
 #portifolio .img{
     display: inline-block;
 }
+
+/* #inicio{
+    background-color: rgba(0, 0, 0, 0.705);
+    color: blanchedalmond;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: fit-content;
+} */
+
+#seta-sobe{
+    display: block;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 45px;
+    height: 45px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.247);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 4px;
+}
